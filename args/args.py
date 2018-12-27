@@ -4,8 +4,8 @@ import argparse
 def parse():
     parser = argparse.ArgumentParser(description="A simple (and simplistic) cipher tool.")
 
-    parser.add_argument('cipher', choices=['caesar', 'vigenere'],
-                        help="the type of cipher to use ('caesar', or 'vigenere')",
+    parser.add_argument('cipher', choices=['caesar', 'vigenere', 'autokey'],
+                        help="the type of cipher to use ('caesar', 'vigenere', or 'autokey')",
                         metavar='CIPHER')
 
     parser.add_argument('mode', choices=['encrypt', 'decrypt'],
