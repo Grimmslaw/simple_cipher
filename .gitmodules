@@ -1,3 +1,0 @@
-[submodule "some_crypt"]
-	path = some_crypt
-	url = git@github.com:Grimmslaw/some_crypt.git
